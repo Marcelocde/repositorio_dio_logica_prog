@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculos aritimeticos</title>
+
+    <script>
+
+        var num1 = prompt("Entre com um numero: ")
+        var num2 = prompt("Entre com um numero: ")
+        var num1 = parseFloat(num1)
+        var num2 = parseFloat(num2)
+
+        var escolha = prompt (" Digite qual operação deseja fazer, soma ou subtração")
+
+        if ( escolha=== soma){
+            soma()
+        }
+        else {
+            subtração()
+        }
+
+        function soma ( ){
+            resultado = num1 + num2
+            return resultado
+        }
+
+        function subtração ( ){
+            resultado = num1 - num2
+            return resultado
+        }
+
+        document.write (' O resultado é:' + resultado)
+
+
+
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
